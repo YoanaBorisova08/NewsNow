@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    "Noto Sans",
+    "Liberation Sans",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.nav {
+  width: 100%;
+  height: 4rem;
+  background-color: #1a3b3c;
+}
+
+.nav__layout {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-brand:hover {
+  color: #fff1c8;
+}
+
+.nav-brand__logo {
+  width: 3.5rem;
+  margin-right: 0.25rem;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #faf9f6;
+  color: #113343;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  min-height: 800px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  padding: 0.67em;
+}
+
+.new {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  border: 0.125rem solid #e3dabf;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  padding: 1.5rem 2rem;
+  margin-bottom: 40px;
+}
+
+.new--active {
+  margin: 4rem auto;
+}
+
+.new__category {
+  min-width: 7rem;
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 0.75;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.new__category__link {
+  text-decoration: none;
+  color: #7e4949;
+}
+
+.new__category__link:hover {
+  color: #113343;
+}
+
+.new__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.new__content__text {
+  margin-right: 5rem;
+  width: 30rem;
+}
+
+.new__content__title {
+  font-size: 1.75rem;
+  letter-spacing: 0.05em;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  color: #113343;
+}
+
+.new__title--active {
+  font-size: 2.5rem;
+  align-self: center;
+}
+
+.new__content__paragraph {
+  font-size: 1.15rem;
+  letter-spacing: 0.025em;
+  margin-bottom: 1.5 rem;
+  color: #113343;
+}
+
+.new__p--active {
+  font-size: 1.25rem;
+  width: 80%;
+  align-self: center;
+}
+
+.new__content__image {
+  width: 25rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.new__img--active {
+  align-self: center;
+  width: 35rem;
+  height: 20rem;
+}
+
+.new__link {
+  text-decoration: none;
+}
+
+.new__link:hover .new__content__title {
+  color: #e3dabf;
+}
+
+.button {
+  display: flex;
+  width: 9.5rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  background-color: #c9b7a4;
+  color: #faf9f6;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+  margin-left: auto;
+}
+
+.button:hover {
+  background-color: #eddeb0;
+  color: #faf9f6;
+}
+
+.button__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.footer {
+  background-color: #1a3b3c;
+  padding: 3rem 0;
+}
+
+.footer::after {
+  content: "";
+  display: block;
+  width: 7.5rem;
+  height: 0.125rem;
+  background-color: white;
+  margin: 2.5rem auto 0 auto;
+  opacity: 0.5;
+}
+
+.footer__heading {
+  color: white;
+}
+
+.footer__desc {
+  color: #e3dabf;
+  max-width: 20rem;
+  line-height: 1.33em;
+}

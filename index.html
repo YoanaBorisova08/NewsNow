@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imgs/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <title>NewsNow</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__layout">
+          <a class="nav-brand" href="index.html">
+            <svg class="nav-brand__logo" viewBox="0 0 200 200">
+              <defs>
+                <linearGradient id="gradN" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#ff3d3d" />
+                  <stop offset="50%" stop-color="#ffaa2a" />
+                  <stop offset="100%" stop-color="#007bff" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M30 170 L30 30 L90 100 L150 30 L150 170 L90 100 Z"
+                fill="url(#gradN)"
+              />
+              <circle cx="150" cy="30" r="10" fill="url(#gradN)" />
+            </svg>
+            NewsNow
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="container">
+        <h1 class="main-heading">The hot topics of today</h1>
+        <div class="news">
+          <div class="new">
+            <div class="new__category">
+              <a href="categorie.html" class="new__category__link"
+                >Techologie</a
+              >
+            </div>
+            <div class="new__content">
+              <div class="new__content__text">
+                <h2 class="new__content__title">
+                  AI Revolutionizes Content Creation
+                </h2>
+                <p class="new__content__paragraph">
+                  In the past decade, artificial intelligence has made leaps in
+                  content creation. Tools now allow writers, designers, and
+                  marketers to generate high-quality text, graphics, and even
+                  videos in minutes. Experts say this could change the media
+                  landscape, making content faster and more accessible, but it
+                  also raises questions about originality and job security.
+                  Companies are investing heavily in AI-driven platforms, aiming
+                  to balance efficiency with creativity.
+                </p>
+              </div>
+              <img
+                src="./imgs/ai_photo.png"
+                alt="photo"
+                class="new__content__image"
+              />
+            </div>
+          </div>
+
+          <div class="new">
+            <div class="new__category">
+              <a href="categorie.html" class="new__category__link">Health</a>
+            </div>
+            <div class="new__content">
+              <div class="new__content__text">
+                <h2 class="new__content__title">
+                  New Study Highlights Benefits of Morning Exercise
+                </h2>
+                <p class="new__content__paragraph">
+                  Researchers from a leading university have found that
+                  exercising in the morning can significantly improve mental
+                  alertness throughout the day and enhance metabolic activity.
+                  Participants who exercised before 9 AM reported higher energy
+                  levels, better mood, and improved focus compared to those who
+                  worked out later in the day. Experts suggest incorporating
+                  light stretching, cardio, or strength training into morning
+                  routines to harness these benefits, while also emphasizing
+                  adequate sleep and hydration.
+                </p>
+              </div>
+              <img
+                src="./imgs/exercise_photo.png"
+                alt="photo"
+                class="new__content__image"
+              />
+            </div>
+          </div>
+
+          <div class="new">
+            <div class="new__category">
+              <a href="categorie.html" class="new__category__link"
+                >Environment</a
+              >
+            </div>
+            <div class="new__content">
+              <div class="new__content__text">
+                <h2 class="new__content__title">
+                  Cities Adopt Green Roofs to Combat Heat
+                </h2>
+                <p class="new__content__paragraph">
+                  As cities worldwide face rising temperatures, urban planners
+                  are turning to green roofs as a solution. These vegetated
+                  rooftops help absorb heat, reduce energy consumption, and
+                  improve air quality. In addition, green roofs can manage
+                  rainwater runoff and provide urban habitats for wildlife.
+                  Pilot programs in several major cities have shown measurable
+                  reductions in building temperatures and energy costs. Experts
+                  encourage widespread adoption to create more sustainable,
+                  climate-resilient urban environments.
+                </p>
+              </div>
+              <img
+                src="./imgs/city_photo.png"
+                alt="photo"
+                class="new__content__image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <h3 class="footer__heading">NewsNow</h3>
+        <p class="footer__desc">Be the first to know the change.</p>
+      </div>
+    </footer>
+  </body>
+</html>
