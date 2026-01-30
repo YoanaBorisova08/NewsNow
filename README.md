@@ -1,1 +1,1 @@
-"# NewsNow" 
+# NewsNow
