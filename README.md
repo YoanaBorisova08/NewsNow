@@ -28,11 +28,11 @@ This is a news website built with PHP, HTML, and CSS, using MariaDB for data sto
 
 <img src="design/new.jpg" alt="New" width="400" height="300">
 
-<img src="design/admin.jpg" alt="Admin" width="400" height="300">
+<img src="design/admin.jpg" alt="Admin" width="200" height="300">
 
-<img src="design/login.jpg" alt="LogIn" width="200" height="300">
+<img src="design/login.jpg" alt="LogIn" width="400" height="300">
 
-<img src="design/add.jpg" alt="create" width="200" height="300">
+<img src="design/add.jpg" alt="create" width="400" height="300">
 
 # ⚙️ Installation
 
