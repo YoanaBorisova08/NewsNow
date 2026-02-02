@@ -1,4 +1,4 @@
-# NewsNow
+# NewsNow 📰
 
 This is a news website built with PHP, HTML, and CSS. Users can view the latest news, browse by category, and read individual articles. The site also has an admin section for managing news content.
 
@@ -12,17 +12,15 @@ This is a news website built with PHP, HTML, and CSS. Users can view the latest 
 
 - Admin section to manage content:
 
-  + Add news
+  + ➕ Add news
 
-  + Edit news
+  + ➕ Edit news
 
-  + Delete news
-
-  + Screenshots
+  + ❌ Delete news
 
 # The project design
 
-# Installation
+# ⚙️ Installation
 
 1. Clone the repository:
 
@@ -34,7 +32,7 @@ This is a news website built with PHP, HTML, and CSS. Users can view the latest 
 
 ```http://localhost/news-site```
 
-# Technologies Used
+# 🛠️ Technologies Used
 
 PHP – for dynamic content and admin functionality
 
