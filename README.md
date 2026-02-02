@@ -20,6 +20,20 @@ This is a news website built with PHP, HTML, and CSS, using MariaDB for data sto
 
 # The project design
 
+<img src="design/index.jpg" alt="Main Page" width="400" height="300">
+
+<img src="design/category1.jpg" alt="Second Page" width="400" height="300">
+
+<img src="design/category2.jpg" alt="Pagination" width="400" height="300">
+
+<img src="design/new.jpg" alt="New" width="400" height="300">
+
+<img src="design/admin.jpg" alt="Admin" width="400" height="300">
+
+<img src="design/login.jpg" alt="LogIn" width="200" height="300">
+
+<img src="design/add.jpg" alt="create" width="200" height="300">
+
 # ⚙️ Installation
 
 1. Clone the repository:
